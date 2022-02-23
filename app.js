@@ -14,7 +14,7 @@ io.on('connection', (socket) => {
     });
 });
 
-const port = process.env.PORT || 4004;
+const port = process.env.PORT || 3000;
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.set('views', 'views');
